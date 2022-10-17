@@ -11,13 +11,13 @@ public class Main {
         int u2Budget = 0;
         //Load Phase-1 payload from text file
         try {
-            phaseOnePayload = marsSimulation.loadItems("specs/phase-1.txt");
+            phaseOnePayload = marsSimulation.loadItems("./phase-1.txt");
         } catch (FileNotFoundException fnf) {
             System.out.println("Phase-1 Payload file not found!");
         }
         //Load Phase-2 payload from text file
         try {
-            phaseTwoPayload = marsSimulation.loadItems("specs/phase-2.txt");
+            phaseTwoPayload = marsSimulation.loadItems("./phase-2.txt");
         } catch (FileNotFoundException fnf) {
             System.out.println("Phase-2 Payload file not found!");
         }
