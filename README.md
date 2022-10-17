@@ -21,3 +21,5 @@ This phase is meant to send building equipment and construction material to help
 ## Phase-2:
 
 This phase is meant to send the colony of humans along with some food resources. In the resources tab, you will find a text file that contains the list of all items that we need to send called 'Phase-2.txt`. Each line in the file also contains the item name and its weight in Kgs.
+
+##### Thanks to kkrcides

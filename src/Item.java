@@ -18,7 +18,7 @@ class Item {
     String getName() {
         return name;
     }
-    
+
     int getWeight() {
         return weight;
     }
